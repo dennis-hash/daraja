@@ -10,7 +10,7 @@
     <form action="stk_initiate.php" method="post">
         <div>
             <label for="">Amount</label>
-            <input type="text" name="name" placeholder="amount">
+            <input type="text" name="amount" placeholder="amount">
 
             <label for="">Phone number</label>
             <input type="text" name="phone" placeholder="Phone number">
