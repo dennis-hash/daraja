@@ -81,8 +81,8 @@ if(isset($_POST['submit'])){
     date_default_timezone_set('Africa/Nairobi');
   
     # access token
-    $consumerKey = 'MuiQJf5xtl5IHehCQNvDh8qwMhDM5ZFv'; //Fill with your app Consumer Key
-    $consumerSecret = 'QwMov3CMEV4WGIb4'; // Fill with your app Secret
+    $consumerKey = 'zrzFgcreTWqy7jKngeKzVfUqk2TIfuRm'; //Fill with your app Consumer Key
+    $consumerSecret = 'G692pXX49zWVPAyG'; // Fill with your app Secret
   
     # define the variales
     # provide the following details, this part is found on your test credentials on the developer account
@@ -118,7 +118,7 @@ if(isset($_POST['submit'])){
     $initiate_url = 'https://sandbox.safaricom.co.ke/mpesa/stkpush/v1/processrequest';
   
     # callback url
-    $CallBackURL = 'https://secret-everglades-18228.herokuapp.com/callbackurl.php';  
+    $CallBackURL = 'https://secret-everglades-18228.herokuapp.com/';  
   
     $curl = curl_init($access_token_url);
     curl_setopt($curl, CURLOPT_HTTPHEADER, $headers);
