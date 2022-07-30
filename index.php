@@ -13,10 +13,11 @@
             <input type="text" name="amount" placeholder="amount">
 
             <label for="">Phone number</label>
-            <input type="text" name="phone" placeholder="Phone number">
+            <input type="number" name="phone" placeholder="Phone number">
 
             <input type="submit" value="Submit" name="submit">
         </div>
     </form>
 </body>
+
 </html>
