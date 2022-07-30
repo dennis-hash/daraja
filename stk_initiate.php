@@ -99,8 +99,8 @@ if(isset($_POST['submit'])){
       for developer/test accounts, this money will be reversed automatically by midnight.
     */
     
-     $PartyA = $_POST['phone']; // This is your phone number, 
-    $AccountReference = '2255';
+    $PartyA = $_POST['phone']; // This is your phone number, 
+    $AccountReference = '2255'; // This is your account number,
     $TransactionDesc = 'Test Payment';
     $Amount = $_POST['amount'];
    
@@ -163,4 +163,5 @@ if(isset($_POST['submit'])){
   
     echo $curl_response;
   };
+  
   ?>
